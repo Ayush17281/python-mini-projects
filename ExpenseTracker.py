@@ -18,7 +18,7 @@ while True:
         date = str(input("Enter The Date (DD-MM-YYYY): "))
         category = str(input("Enter the Category: "))
         description = str(input("Enter short Description: "))
-        amount = float(input("Enter the Amount: "))
+        amount = float(input("Enter the Amount (in Integers only): "))
 
         expense = {
             "Date": date,
